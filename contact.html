@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact_style.css">
+    <link rel="icon" type="image/png" href="./video_foto/METAL_EXS_LogoV1.png">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./video_foto/METAL_EXS_LogoV1.png" alt="logo">
+        </figure>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>If you have complaints or just want to reach out, fill the form below:</p>
+            <form>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+                <label for="message">Complaint / Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="What's on your mind?" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

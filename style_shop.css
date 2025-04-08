@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+header  {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul .lupa {
+    width: 30px;
+}
+
+
+
+header nav ul .shoppingCart {
+  width: 30px;
+  margin-right: 8px;
+}
+
+nav ul .menu {
+    width: 30px;
+    margin-left: 8px;
+}
+
+nav ul .search-wraper {
+    width: 30px;
+    margin-left: 1px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+#searchInput {
+    padding: 8px;
+    width: 200px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+
+header .logo {
+    position: relative;
+    align-items: center;
+    margin-left: -5%;
+    
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    height: 400px;
+    
+}
+section .containerClothes{
+    margin-left: 2%;
+    margin-top: 90px;
+    width: 375px;
+    
+    
+}
+
+
+section .containerClothes p{
+    border-top: #999898 solid 2px;
+}
+
+section .containerClothes figure{
+   
+    border: #999898 solid 2px;
+}
+section .containerClothes figure img{ 
+    width: 100%;
+}
+
+
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  width: 250px;
+  background-color: #6A2C70;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #6A2C70;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+.card-front
+
+.card-back {
+  background-color: #F08A5D;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #F08A5D;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+footer{
+  margin-top: 300%;
+  
+}
+
+
+footer .title{
+    font-weight: bold;
+}
+
+  footer .lista-jos li {
+    margin-left: 10px;
+    list-style: none;
+  }
+
+footer .link{
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    background: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-wrapper input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 150px;
+}
+
+.search-wrapper button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+ footer h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+ }
+
+footer ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #ffffff;
+    border-top: #d2cfcf solid 1px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .lista-jos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .lista-jos li {
+    margin: 0;
+  }
+  
+  footer .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  footer .link:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  
+  
+  

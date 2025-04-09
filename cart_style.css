@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  z-index: 1;
+  
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul .lupa {
+  width: 30px;
+}
+
+
+
+header nav ul .shop {
+  color: black;
+  font-size: x-large;
+  margin-right: 8px;
+}
+
+nav ul .menu {
+  width: 30px;
+  margin-left: 8px;
+}
+
+nav ul .search-wraper {
+  width: 30px;
+  margin-left: 1px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+#searchInput {
+  padding: 8px;
+  width: 200px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+header .logo {
+  position: relative;
+  align-items: center;
+  margin-left: -5%;
+  
+}
+
+.empty-cart-container {
+  align-items: center;
+  display: flex
+;
+  flex-direction: column;
+  min-height: 340px;
+}
+article, aside, blockquote, body, button, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+[mir] .empty-container-wrap {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 12px;
+  color: #222;
+  background-color: #fff;
+  height: 100%;
+}
+
+html {
+  font-size: 12px;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.empty-cart-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+footer{
+  padding-top: 100px;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+}
+
+footer ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #ffffff;
+  border-top: #d2cfcf solid 1px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.lista-jos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.lista-jos li {
+  margin: 0;
+}
+
+footer .link {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .link:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+footer{
+  margin-top: auto;
+  
+}
+
+
+footer .title{
+    font-weight: bold;
+}
+
+  footer .lista-jos li {
+    margin-left: 10px;
+    list-style: none;
+ 
+  }
+
+footer .link{
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+    
+}
+footer p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333; 
+  }

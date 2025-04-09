@@ -1,85 +1,73 @@
 * {
-    color: silver;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    background: linear-gradient(to right, rgb(154, 152, 152), rgb(93, 93, 93));
-    
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 500;
+  background: linear-gradient(to right, rgb(98, 98, 98), rgb(0, 0, 0));
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
+header {
+  padding: 20px;
+  text-align: center;
+ 
+}
+
+header img {
+  width: 100px;
+}
+
+
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%; 
-    max-width: 700px; 
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%; 
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 15px;
 }
 
 section p {
-    
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+  text-align: justify;
+  text-indent: 30px; 
+  line-height: 1.8; 
+  padding: 10px 20px;
+  max-width: 1000px;
 }
 
 section ul {
-    padding: 0 50px;
-    text-align: left;
-    margin-bottom: 40px;
+  padding: 20px;
+  text-align: left;
+  width: 100%;
+  max-width: 700px;
 }
 
 section ul li {
-    padding-top: 20px;
-    list-style: none;
-    display: flex;
-    align-items: center;
+  list-style: none;
+  padding: 10px 0;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  line-height: 1.6;
+  text-indent: 20px;
 }
 
 section ul li::before {
-    content:"🖇️";
-    margin-right: 10px;
+  content: "📎";
+  margin-right: 15px;
+  font-size: 20px;
 }
 
-
-body {
-    background: linear-gradient(to right, #11121a, #3f404c, rgb(112, 112, 116)); 
-    color: white; 
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
-
-
-#about-us {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 50px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
-}
-
-
-#about-us ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#about-us ul li {
-    padding: 10px 0;
-    font-size: 18px;
-}
 
 
 #ghost {

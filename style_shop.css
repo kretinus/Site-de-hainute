@@ -308,7 +308,7 @@ footer {
 
  
 .ui-like {
-  position: fixed;
+  position: relative;
   margin-bottom: -7px;
   margin-right: 207px;
   --icon-size: 25px;

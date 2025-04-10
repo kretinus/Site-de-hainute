@@ -19,6 +19,10 @@ header{
   
 }
 
+.empty-bag .fsp-element{
+  flex: ;
+}
+
 nav ul {
   display: flex;
   align-items: center;

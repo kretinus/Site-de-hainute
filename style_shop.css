@@ -345,7 +345,9 @@ footer {
     left: 0;
 }
 
-  
+  .sidebar {
+    z-index: 1000;
+  }
 
 
 

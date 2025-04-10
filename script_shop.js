@@ -46,3 +46,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuIcon = document.querySelector(".menu");
+    const sidebar = document.getElementById("sidebar");
+    
+    menuIcon.addEventListener("click", function () {
+        sidebar.classList.toggle("hidden");
+    });
+});

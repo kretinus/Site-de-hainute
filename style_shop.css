@@ -557,3 +557,44 @@ section .containerClothes figure .actiuni_pt_haine .ui-like {
     opacity: 0;
   }
 }
+
+.spcart i.fa-cart-shopping {
+
+
+  transition: all 0.3s ease; 
+  cursor: pointer;
+}
+
+.spcart i.fa-cart-shopping:hover {
+  color: #8a8a8a; 
+  transform: scale(1.2); 
+}
+
+.ui-like .like {
+  transition: all 0.3s ease; 
+}
+
+.ui-like:hover .like {
+  transform: scale(1.15); 
+
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  padding: 8px 12px;
+  display: block;
+  border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.sidebar ul li a.active {
+  background-color: #000;
+  color: white;
+}
